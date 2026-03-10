@@ -69,5 +69,5 @@ Pw = Pg - l4 * R60(:,3)
 - MATLAB and Arduino link lengths currently differ; ensure they match if you want consistent results.
 
 ## Credits
-Designed and implemented by <Fawad Mehboob>.
+Designed and implemented by Fawad Mehboob
 
