@@ -1,0 +1,1 @@
+# Inverse-Kinematics-of-6-DOF-Manipulator-witha-spherical-Wrist
