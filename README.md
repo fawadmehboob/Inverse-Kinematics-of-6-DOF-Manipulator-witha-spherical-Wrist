@@ -14,8 +14,6 @@ This repository contains:
 ## Repo Structure
 - `matlab/` – MATLAB implementation and tests
 - `arduino/IK_function/` – Arduino Mega sketch
-- `docs/` – diagrams, DH tables, wiring (optional)
-- `cad/` – STL / drawing exports (optional)
 
 ## Kinematics Overview
 **Link lengths (mm)**
@@ -53,10 +51,10 @@ Pw = Pg - l4 * R60(:,3)
 - Servo: pin `11`
 
 **Steps**
-1. Open `arduino/IK_function/IK_function.ino` in Arduino IDE
-1. Upload to Arduino Mega
-1. Open Serial Monitor at `9600`
-1. Enter:
+1. Open `arduino/IK_function.ino` in Arduino IDE
+2. Upload to Arduino Mega
+3. Open Serial Monitor at `9600`
+4. Enter:
    - `x`, `y`, `z` (mm)
    - `yaw`, `pitch`, `roll` (degrees)
 
